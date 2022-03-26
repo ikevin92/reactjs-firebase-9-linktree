@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { LoginView } from './components/LoginView';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import EditProfileView from './components/EditProfileView';
 import DashboardView from './components/DashboardView';
 import PublicProfileView from './components/PublicProfileView';
 import SignOutView from './components/SignOutView';
-import ChooseUserNameView from './components/ChooseUserNameView';
+import ChooseUserNameView from './routes/ChooseUserNameView';
+import LoginView from './routes/LoginView';
 
 ReactDOM.render(
   <BrowserRouter>
